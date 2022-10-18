@@ -1,7 +1,5 @@
 pragma solidity 0.8.0;
 
-interface IBEP20 {
-  /**
    * @dev Returns the amount of tokens in existence.
    */
   function totalSupply() external view returns (uint256);
